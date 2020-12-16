@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Vincere Cycling Club",
+    "slug": "Project-1",
+    "url": "https://example.com",
+    "image": "./Images/project1.jpeg",
+    "description": "I built this to show off my sweet skills"
+  },
+  {
+    "title": "HomeBarista",
+    "slug": "Project-2",
+    "url": "https://example.org",
+    "image": "./Images/project2.png",
+    "description": "I built this to show off my sweet skills again"
+  },
+  {
+    "title": "MakesSense",
+    "slug": "Project-2",
+    "url": "https://example.org",
+    "image": "./Images/project2.png",
+    "description": "I built this to show off my sweet skills again"
+  }
+]
