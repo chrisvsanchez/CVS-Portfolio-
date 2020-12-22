@@ -41,9 +41,10 @@ const LandingPage = () => {
           <h2>
             <TextLoop>
               <span>Full Stack Developer </span>
-              <span>Problem Solving </span>
+              <span>Problem Solver </span>
+              <span>Cyclist </span>
+              <span>Coffee Aficionado</span>
             </TextLoop>
-            All day
           </h2>
           <br></br>
           <div></div>
