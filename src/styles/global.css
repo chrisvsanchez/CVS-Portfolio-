@@ -2,7 +2,7 @@ html {
   background-color: white;
   padding: 30px;
 }
-
+/* 
 *,
 ::before,
 ::after {
@@ -21,4 +21,7 @@ html {
 
 .svg-container div {
   padding-left: 0px !important;
+} */
+.landing-page-name {
+  font-size: 4em;
 }
