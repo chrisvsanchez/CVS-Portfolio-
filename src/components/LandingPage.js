@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-grid-system";
+import { Container, Row, Col } from "react-grid-csystem";
 import {
   FaGithub,
   FaMedium,
@@ -7,30 +7,43 @@ import {
   FaTwitter,
   FaEnvelope,
 } from "react-icons/fa";
+import { Link } from "gatsby";
+
 const LandingPage = () => {
   return (
-    <div>
-      <h1>LandingPage</h1>
-      <h1>Chris V. Sanchez </h1>
-      <Container>
-        <Row>
-          <Col sm={1}>
-            <FaGithub />
-          </Col>
-          <Col sm={1}>
-            <FaMedium />
-          </Col>
-          <Col sm={1}>
-            <FaLinkedin />
-          </Col>
-          <Col sm={1}>
-            <FaTwitter />
-          </Col>
-          <Col sm={1}>
-            <FaEnvelope />
-          </Col>
-        </Row>
-      </Container>
+    <div className="landing-page" style={{ height: "90vh", width: "90vw" }}>
+      <div>
+        <Container>
+          <h1>Chris V. Sanchez </h1>
+          <Row className="svg-container">
+            <Col sm={1}>
+              <Link to="https://github.com/chrisvsanchez">
+                <FaGithub />
+              </Link>
+            </Col>
+            <Col sm={1}>
+              <Link to="https://medium.com/@chrisvsanchez">
+                <FaMedium />
+              </Link>
+            </Col>
+            <Col sm={1}>
+              <Link to="https://www.linkedin.com/in/chrisvsanchez/">
+                <FaLinkedin />
+              </Link>
+            </Col>
+            <Col sm={1}>
+              <Link to="https://twitter.com/chris_vsanchez">
+                <FaTwitter />
+              </Link>
+            </Col>
+            <Col sm={1}>
+              <Link to="chrisvsanchez@gmail.com">
+                <FaEnvelope />
+              </Link>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 };

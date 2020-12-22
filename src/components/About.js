@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div style={{ backgroundColor: "blue" }}>
+    <div style={{ height: "90vh", width: "90vw" }}>
       <h1>About me</h1>
       <p>
         Bilingual full-stack web developer with experience in Ruby and

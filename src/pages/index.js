@@ -7,6 +7,7 @@ import LandingPage from "../components/LandingPage";
 import Footer from "../components/Footer";
 import PortProjects from "../components/PortProjects";
 import Stack from "../components/Stack";
+
 export default () => {
   return (
     <Layout>
